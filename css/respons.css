@@ -1,0 +1,47 @@
+@media (max-width: 670px){
+    /* header */
+    .container{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    .logo-img{
+        width: 150px;
+    }
+    .search-input{
+        width: 80%;
+    }
+    /* pokemons */
+    .pokemon-search-title{
+        margin-top: 100px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+
+    .pokemon-main{
+        display: flex;
+    }
+    .pokemon-list{
+        justify-content: center;
+    }
+    .pokemon-item{
+        align-items: center;
+        justify-content: center;
+    }
+    .pokemon-search__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 0px;
+    }
+    .pokemon-search__item{
+        width: 100px;
+    }
+    .pokemon-filter-button{
+        width: 100px;
+    }
+}
